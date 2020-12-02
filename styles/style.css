@@ -91,7 +91,76 @@ div{
   right: 0px;
   z-index: 0;
 }
+.content{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.description{
+  display:flex;
+  background-color: white;
+  margin-top: 100px;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+  min-height: 350px;
+}
+.two-columns{
+  width: 80%;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 0;
+  padding-top:0;
+  
+  
 
+  
+  
+}
+.two-columns__brief{
+  width: 175px;
+  display: flex;
+}
+.two-columns__brief_text_style {
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  text-align:start;
+  
+}
+.two-columns__main-text{
+  min-width: 784px;
+  width: 80%;
+  box-sizing: border-box;
+}
+.two-columns__main-text_text_style{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  text-decoration:black;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.two-columns__paragraph{
+  /*margin-bottom: 30px;*/
+  box-sizing: border-box;
+}
+
+.two-columns__span-accent{
+  font-weight: bold;
+  text-align: left;
+  text-decoration:black;
+}
+.two-columns__paragraph-margin{
+  margin-bottom: 30px;
+}
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
