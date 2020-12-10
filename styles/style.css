@@ -65,7 +65,7 @@
     color: #2f80ed;
 }
 
-.header__maine-illustration {
+.header__main-illustration {
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -108,6 +108,7 @@
     flex-direction: row;
     align-items: flex-start;
     align-content: flex-start;
+    justify-content: space-between;
     margin-top: 0;
     padding-top: 0;
 }
@@ -130,16 +131,10 @@
 }
 
 .two-columns__paragraph {
-    box-sizing: border-box;
     margin: 0 0 30px 0;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-    text-align: left;
-    text-decoration: black;
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
 }
 
 .two-columns__paragraph:last-child {
