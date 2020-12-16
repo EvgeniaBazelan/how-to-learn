@@ -1,0 +1,9 @@
+.description {
+    display: flex;
+    background-color: white;
+    margin-top: 100px;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    min-height: 350px;
+}
