@@ -1,0 +1,8 @@
+.cards__item {
+    width: 240px;
+}
+
+
+/*.cards__item:not(:first-child):not(:nth-child(4)) {
+    margin-left: 100px;
+}*/

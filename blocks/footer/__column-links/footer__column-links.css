@@ -7,4 +7,6 @@
     font-weight: normal;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: #f2f2f2;
 }
