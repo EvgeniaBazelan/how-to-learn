@@ -1,4 +1,9 @@
-.footer__column-link {
-    text-decoration: none;
-    color: #f2f2f2;
-}
+        .footer__column-link {
+            text-decoration: none;
+            color: #f2f2f2;
+        }
+
+        .footer__column-link:hover {
+            text-decoration: underline;
+            color: #2f80ed;
+        }
