@@ -1,4 +1,5 @@
 .section-subtitle_theme_dark {
+    position: inherit;
     z-index: 2;
     color: #f2f2f2;
 }
